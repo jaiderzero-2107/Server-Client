@@ -47,4 +47,16 @@ Encerramento: A conexão é fechada (closesocket) e os recursos da Winsock são 
 
 O protocolo TCP/IP usado é síncrono e de requisição-resposta: o cliente envia um comando e aguarda uma resposta do servidor antes de enviar o próximo, simplificando a lógica de controle de fluxo em ambos os lados.
 
+Screenshots:
+
+<img width="782" height="205" alt="Sem título7" src="https://github.com/user-attachments/assets/88fe309f-667b-4149-8e5b-61d29e3d6776" />
+<img width="760" height="161" alt="Sem título8" src="https://github.com/user-attachments/assets/bbb986ee-d3f2-4493-bec5-0af29d130869" />
+<img width="569" height="399" alt="Sem título9" src="https://github.com/user-attachments/assets/664e8be2-2b42-4303-88c6-e3cbb19de80a" />
+
+## Instruções como executar
+
+Em CLion o Cmake está configurado para poder executar ambos client.c e server.c na mesma pasta; primeramente tem que ser executado o server.c e depois o client.c. Ao inserir os comandos na tela do client.c, eles
+terão efeito no server.c.
+
+
 https://www.youtube.com/shorts/R6WN4_bBB1Q
