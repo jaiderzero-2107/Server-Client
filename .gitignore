@@ -1,0 +1,18 @@
+# CMake generated files
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# CLion project-specific files
+.idea/
+
+# Executables
+*.exe
+*.dll
+*.so
+
+# Object files
+*.o
+*.obj
